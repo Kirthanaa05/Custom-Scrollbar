@@ -1,0 +1,53 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+body{
+  background: rgb(193, 240, 255);
+}
+
+.card-div{  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section h1{
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 1rem;
+}
+
+.card{
+  width: 90%;
+  background: white;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 5px;
+  line-height: 2rem;
+}
+
+.card p{
+  text-align: justify;
+}
+
+/* scroll bar */
+::-webkit-scrollbar{
+  background: transparent;
+  width: 1rem;
+}
+
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(#FBDA61,#FF5ACD);
+  border-radius: 50px;
+}
